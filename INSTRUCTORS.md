@@ -1,8 +1,8 @@
 # Instructor Guide
 
-These labs were written as hands-on extensions to problem sets and quizzes in **API-232** at the Harvard Kennedy School. Each one revisits ideas students have already met on a homework or quiz, applies them to real NFL data, and finishes with a short written policy question.
+These labs were written as hands-on extensions for **API-232** at the Harvard Kennedy School. Each one applies core methods to real NFL data and finishes with a short written policy question. They don't depend on any specific course materials: where a notebook connects to a classic example (LaLonde's job-training study, the birth-weight paradox, school-choice matching), it names the idea itself.
 
-This guide covers what each lab teaches, how long the parts take, what students need beforehand, and how to adapt the labs if you teach a different course.
+This guide covers what each lab teaches, how long the parts take, what students need beforehand, and how to adapt the labs to your course.
 
 ## Format
 
@@ -72,26 +72,6 @@ Students should be comfortable with:
 **Data:** nflverse player season statistics (2013–2025) and OverTheCap contracts (via nflverse). Projections are deliberately naive (last season's points per game × 17).
 
 ---
-
-## API-232 cross-references
-
-The notebooks refer to specific API-232 assignments and quizzes so students can connect the labs to earlier work. If you teach a different course, these references won't mean anything to your students. Each one is listed below with what it refers to, so you can point to your own equivalent or delete the sentence.
-
-| Lab | Reference in the notebook | What it refers to | Substitute |
-|---|---|---|---|
-| OT | "Concepts from Quiz 4" | A quiz on randomized experiments, SEs, CIs, significance, power and non-interference | Your unit on experiments |
-| OT | "Quiz 4, Question 2(d)", the coaching example | A question about bias from differences between treatment and control groups | Any balance / selection example |
-| OT | "the Quiz 4 formula SE = √(s²ₜ/nₜ + s²꜀/n꜀)" | Standard two-sample SE for a difference in means | Self-explanatory; keep as is |
-| OT | "the Quiz 4 rule of thumb" | Significance needs an estimate ≈ 2 × SE from zero; 80% power needs ≈ 2.8 × SE | Self-explanatory; keep as is |
-| Draft | "Concepts from Assignment 5" | A problem set on causal inference with observational data | Your unit on observational causal inference |
-| Draft | "the LaLonde problem" (Assignment 5, Problem 2) | LaLonde (1986) NSW job-training data, comparing experimental results with CPS comparison groups | LaLonde is widely taught; any selection-on-observables example works |
-| Draft | `dml_buggy.py` (Assignment 5, Problem 2) | A DML script with a cross-fitting bug | Any DML introduction |
-| Draft | "birth-weight paradox" (Assignment 5, Problem 3) | Conditioning on a post-treatment / collider variable | Any bad-control or collider example |
-| Draft | "Problem 4 (tariffs)" | A regression discontinuity exercise | Any RD example |
-| Draft | "randomizing households instead of individuals in Quiz 4" | Cluster randomization and clustered SEs | Any clustering example |
-| Fantasy | "Concepts from Quiz 3", "Quiz 3's vaccination drive" | A linear program allocating vaccination station-hours, with a rule requiring at least 50 mobile-van hours | Any budget-allocation LP |
-| Fantasy | "the summer-jobs question on the quiz" (Question 3) | Boston mechanism vs. deferred acceptance for assigning students to summer jobs | Any school-choice / matching example |
-| Fantasy | "fractional station-hours" | The quiz LP allowed continuous variables | Explain LP vs. integer programming directly |
 
 ## Adapting the labs
 

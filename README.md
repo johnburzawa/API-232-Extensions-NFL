@@ -72,13 +72,13 @@ Because nflverse updates its data during the season, numbers you get may differ 
 ot_lab/      OT_Coin_Toss_Lab.ipynb            + _SOLUTIONS.ipynb
 draft_lab/   Draft_Sunk_Cost_Lab.ipynb         + _SOLUTIONS.ipynb
 ff_lab/      Fantasy_Optimization_Lab.ipynb    + _SOLUTIONS.ipynb
-INSTRUCTORS.md   Learning goals, timing, course cross-references, adaptation tips
+INSTRUCTORS.md   Learning goals, timing, adaptation tips
 requirements.txt Packages for running locally
 ```
 
 ## For instructors
 
-See **[INSTRUCTORS.md](INSTRUCTORS.md)** for learning objectives, prerequisites, a part-by-part timing guide, the API-232 course materials the labs refer to (and what to substitute if you teach elsewhere), and tips for adapting them.
+See **[INSTRUCTORS.md](INSTRUCTORS.md)** for learning objectives, prerequisites, a part-by-part timing guide, and tips for adapting them.
 
 Solutions are public by design. If you're assigning the labs for credit, consider that students can find them here.
 
