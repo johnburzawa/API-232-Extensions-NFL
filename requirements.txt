@@ -1,0 +1,11 @@
+# Packages for running the labs locally (Colab already has everything except nflreadpy)
+nflreadpy
+polars
+pyarrow
+pandas
+numpy
+scipy>=1.9      # scipy.optimize.milp
+statsmodels
+scikit-learn
+matplotlib
+jupyterlab
